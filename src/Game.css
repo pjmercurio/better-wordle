@@ -1,0 +1,68 @@
+.Game {
+}
+
+.Header {
+    font-size: 16pt;
+}
+
+.GameRow {
+    display: flex;
+}
+
+.LoserButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}
+
+.LoserButton button {
+    width: 110px;
+    height: 35px;
+    background-color: #ff4444;
+    font-size: 12pt;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 4px
+}
+
+.LoserButton button:active {
+    width: 110px;
+    height: 35px;
+    background-color: #ee3333;
+    font-size: 12pt;
+    font-weight: bold;
+    border: none;
+    color: white;
+    border-radius: 4px
+}
+
+.Tile {
+    box-sizing: border-box;
+    border: 2px solid gray;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #EEEEEE;
+}
+
+.HighScore {
+    /* font-family: Avenir; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #1f1f22;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    color: #EEEEEE;
+}
