@@ -1,6 +1,3 @@
-.Game {
-}
-
 .Header {
     font-size: 16pt;
 }
@@ -53,7 +50,6 @@
 }
 
 .HighScore {
-    /* font-family: Avenir; */
     position: absolute;
     bottom: 0;
     left: 0;

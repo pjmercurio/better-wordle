@@ -105,7 +105,7 @@ export default function Game() {
                         })}
                     </GameRow>
                 )
-}           )}
+            })}
             {!isSolved &&
                 <GameRow>
                     {currentGuess.split('').map((letter, index) =>
